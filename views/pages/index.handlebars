@@ -1,0 +1,22 @@
+
+<div class="card">
+    <h5 class="card-header">
+        Registered users
+    </h5>
+
+
+    <div class="card-body">
+        <ul class="list-group">
+            {{#each users}}
+         
+                <li class="list-group-item">{{users}}</li>
+                {{else}}
+                <div class="alert alert-info">
+                    There is any user
+                </div>
+            {{/each}}
+        </ul>
+
+
+    </div>
+</div>
